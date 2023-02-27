@@ -1,22 +1,22 @@
 import React from "react";
+import NavigationContent from "./NavigationContent";
 
 export default function Header() {
    return (
-      <header className="bg-slate-700 p-6 text-white flex justify-between items-center">
+      <header className="bg-slate-700 px-6 py-4 text-white flex justify-between items-center">
          <div className="font-bold text-2xl">
             <span>AMAN</span>
             <span className="text-red-500">'</span>
             <span>S </span>
             <span>PORTFOLIO</span>
          </div>
-         <div>
-            <ul className="flex justify-between items-center">
-               <li className="mx-2 font-bold cursor-pointer">Home</li>
-               <li className="mx-2 font-bold cursor-pointer">About</li>
-               <li className="mx-2 font-bold cursor-pointer">Project</li>
-               <li className="mx-2 font-bold cursor-pointer">Services</li>
-               <li className="mx-2 font-bold cursor-pointer">Contact us</li>
-            </ul>
+         <div className="flex justify-between items-center">
+            <NavigationContent textValue="Home" />
+            <NavigationContent textValue="About" />
+            <NavigationContent textValue="Services" />
+            <NavigationContent textValue="Project" />
+            <NavigationContent textValue="Game" />
+            <NavigationContent textValue="Contact" />
          </div>
       </header>
    );
