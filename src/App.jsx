@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "./pages/Header";
+import HeaderPage from "./pages/HeaderPage";
 
 export default function App() {
    return (
       <div>
-         <Header />
+         <HeaderPage />
       </div>
    );
 }
