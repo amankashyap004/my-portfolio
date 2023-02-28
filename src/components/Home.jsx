@@ -1,9 +1,10 @@
 import React from "react";
 import SmallBtn from "./SmallBtn";
+import { profileImage } from "../assets/images";
 
 export default function Home() {
    return (
-      <section className="flex justify-center items-center p-4 w-full h-[70vh]">
+      <section className="flex justify-center items-center p-4 w-full h-[80vh]">
          <section className="mr-4 text-white w-[40%] p-8">
             <h1 className="font-bold text-2xl">
                Hello, my name is <span className="text-blue-500">Aman Kashyap</span>
@@ -21,7 +22,11 @@ export default function Home() {
                <SmallBtn value="Hire Me!" />
             </div>
          </section>
-         <section className="text-white w-[40%]">Second Section</section>
+         <section className="w-[40%] flex justify-center items-center">
+            <div className="w-1/2 rounded">
+               <img src={profileImage} className="w-full rounded" />
+            </div>
+         </section>
       </section>
    );
 }
