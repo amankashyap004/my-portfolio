@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Introduction() {
    return (
-      <div className="flex justify-center items-center">
-         <p className="text-white w-1/2">
+      <div className="flex justify-center items-center p-8">
+         <p className="text-white">
             Hi there! My name is Aman Kashyap, and I am a passionate front-end web developer. I
             specialize in building user-friendly and responsive interfaces using HTML, CSS,
             JavaScript, and React. I have honed my skills in creating visually stunning websites
