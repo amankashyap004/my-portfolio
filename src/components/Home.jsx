@@ -10,9 +10,8 @@ export default function Home() {
             <h1 className="font-bold text-3xl">
                Hello, my name is <span className="text-blue-500">Aman Kashyap</span>
             </h1>
-            <div className="font-bold text-sm text-blue-300 my-6">
+            <div className="font-bold text-2xl text-blue-300 my-6">
                <TypeAnimation
-                  // Same String at the start will only be typed once, initially
                   sequence={[
                      "I'm an Engineer",
                      1000,
@@ -21,10 +20,9 @@ export default function Home() {
                      "I'm a Learner",
                      1000,
                   ]}
-                  speed={50} // Custom Speed from 1-99 - Default Speed: 40
-                  style={{ fontSize: "0.8em" }}
-                  wrapper="span" // Animation will be rendered as a <span>
-                  repeat={Infinity} // Repeat this Animation Sequence infinitely
+                  speed={50}
+                  wrapper="span"
+                  repeat={Infinity}
                />
             </div>
             <p className="text-base">
