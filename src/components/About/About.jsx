@@ -8,7 +8,8 @@ export default function About() {
          <div className="flex justify-center items-center flex-col w-[20%] p-4">
             <Profile />
          </div>
-         <div className="flex justify-between items-center w-[80%] p-4">
+         <div className="h-[100vh] w-[1.5px] bg-gray-500"></div>
+         <div className="flex justify-between items-center w-[80%]">
             <Introduction />
          </div>
          {/* personal information */}

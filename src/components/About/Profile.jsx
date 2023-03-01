@@ -3,9 +3,13 @@ import { profileImage } from "../../assets/images/index";
 
 export default function Profile() {
    return (
-      <section className="p-4 w-full flex justify-center items-center">
-         <div className="w-[250px] rounded sm:w-[350px]">
+      <section className="p-4 w-full flex justify-center flex-col items-center">
+         <div className="w-[200px] rounded sm:w-[300px]">
             <img src={profileImage} className="w-full rounded" />
+         </div>
+         <div className="mt-4 flex justify-center items-center flex-col">
+            <h2 className="text-white text-2xl font-bold">AMAN KASHYAP</h2>
+            <p className="text-gray-400 text-sm font-medium">Front-End Developer</p>
          </div>
       </section>
    );
