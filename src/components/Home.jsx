@@ -2,6 +2,7 @@ import React from "react";
 import SmallBtn from "./SmallBtn";
 import { profileImage } from "../assets/images";
 import { TypeAnimation } from "react-type-animation";
+import SocialMedia from "./SocialMedia";
 
 export default function Home() {
    return (
@@ -30,7 +31,10 @@ export default function Home() {
                contact me. Take a look around and let me know if you have any questions or would
                like to work together!
             </p>
-            <div className="mt-8 flex justify-start items-center sm:mt-5">
+            <div className="flex justify-start items-start mt-2">
+               <SocialMedia />
+            </div>
+            <div className="mt-4 flex justify-start items-center sm:mt-2">
                <SmallBtn value="Download CV" />
                <SmallBtn value="Hire Me!" />
             </div>
