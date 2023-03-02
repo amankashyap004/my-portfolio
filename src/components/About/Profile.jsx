@@ -1,5 +1,6 @@
 import React from "react";
 import { profileImage } from "../../assets/images/index";
+import SocialMedia from "../SocialMedia";
 
 export default function Profile() {
    return (
@@ -11,6 +12,7 @@ export default function Profile() {
             <h2 className="text-white text-2xl font-bold">AMAN KASHYAP</h2>
             <p className="text-gray-400 text-sm font-medium">Front-End Developer</p>
          </div>
+         <SocialMedia />
       </section>
    );
 }
