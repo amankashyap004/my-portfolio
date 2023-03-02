@@ -3,6 +3,7 @@ import SmallBtn from "./SmallBtn";
 import { profileImage } from "../assets/images";
 import { TypeAnimation } from "react-type-animation";
 import SocialMedia from "./SocialMedia";
+import { Link } from "react-router-dom";
 
 export default function Home() {
    return (
@@ -29,7 +30,10 @@ export default function Home() {
             <p className="text-base">
                On this site, you'll find examples of my work, information about me, and ways to
                contact me. Take a look around and let me know if you have any questions or would
-               like to work together!
+               like to work together!{" "}
+               <Link to="/about">
+                  <span className="text-blue-500 underline font-semibold">more</span>
+               </Link>
             </p>
             <div className="flex justify-start items-start mt-2">
                <SocialMedia />
