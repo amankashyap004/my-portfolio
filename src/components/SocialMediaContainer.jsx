@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SocialMediaContainer({ icon }) {
    return (
-      <div className="text-base rounded-full p-1.5 text-black bg-blue-500 cursor-pointer hover:text-blue-800 hover:bg-blue-300 mr-2">
+      <div className="font-medium text-base rounded-full p-1.5 cursor-pointer bg-blue-600 text-black  shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mr-2">
          {icon}
       </div>
    );
