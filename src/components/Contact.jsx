@@ -2,6 +2,9 @@ import React from "react";
 import SmallBtn from "./SmallBtn";
 
 export default function Contact() {
+   const handleSubmit = (e) => {
+      e.preventDefault();
+   };
    return (
       <section className="flex justify-center items-start m-4">
          <div className="px-4 py-8 flex justify-center items-center flex-col">
@@ -13,7 +16,7 @@ export default function Contact() {
                </p>
             </section>
             <section className="flex justify-center items-center flex-col my-2 w-full">
-               <form className="w-full">
+               <form className="w-full" onSubmit={handleSubmit}>
                   <div className="flex justify-start items-start flex-col w-full my-2">
                      <label htmlFor="name" className="text-gray-300 font-semibold text-lg pb-1">
                         Name
