@@ -11,6 +11,42 @@ export default function Contact() {
                   together.
                </p>
             </section>
+            <section className="flex justify-center items-center flex-col my-2 w-full">
+               <form className="w-full">
+                  <div className="flex justify-start items-start flex-col w-full my-2">
+                     <label htmlFor="name" className="text-gray-300 font-semibold text-lg pb-1">
+                        Name
+                     </label>
+                     <input
+                        className="w-full px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
+                        id="name"
+                        type="text"
+                        placeholder="Enter Your Name"
+                     />
+                  </div>
+                  <div className="flex justify-start items-start flex-col w-full my-2">
+                     <label htmlFor="email" className="text-gray-300 font-semibold text-lg pb-1">
+                        Email
+                     </label>
+                     <input
+                        className="w-full px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
+                        id="email"
+                        type="email"
+                        placeholder="Enter Your Email"
+                     />
+                  </div>
+                  <div className="flex justify-start items-start flex-col w-full my-2">
+                     <label htmlFor="message" className="text-gray-300 font-semibold text-lg pb-1">
+                        Message
+                     </label>
+                     <textarea
+                        className="w-full h-28 px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
+                        id="message"
+                        placeholder="Enter Your Message"
+                     />
+                  </div>
+               </form>
+            </section>
          </div>
       </section>
    );
