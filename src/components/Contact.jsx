@@ -1,4 +1,5 @@
 import React from "react";
+import SmallBtn from "./SmallBtn";
 
 export default function Contact() {
    return (
@@ -44,6 +45,9 @@ export default function Contact() {
                         id="message"
                         placeholder="Enter Your Message"
                      />
+                  </div>
+                  <div className="mt-4">
+                     <SmallBtn value="Send Message" />
                   </div>
                </form>
             </section>
