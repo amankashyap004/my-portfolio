@@ -40,7 +40,9 @@ export default function Home() {
             </div>
             <div className="mt-4 flex justify-start items-center sm:mt-2">
                <SmallBtn value="Download CV" />
-               <SmallBtn value="Hire Me!" />
+               <Link to="/contact">
+                  <SmallBtn value="Hire Me!" />
+               </Link>
             </div>
          </section>
          <section className="p-4 w-[40%] flex justify-center items-center md:w-1/2 sm:w-full sm:mt-4">
