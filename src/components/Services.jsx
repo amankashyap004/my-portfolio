@@ -8,7 +8,7 @@ export default function Services() {
          <div className="mt-8">
             <h2 className="text-white font-bold text-2xl uppercase">Our Services</h2>
          </div>
-         <div className="w-full p-4 flex justify-center items-center">
+         <div className="w-full p-4 flex justify-center items-start">
             <ServicesCard
                image={webImg}
                heading="Web Development"
@@ -17,6 +17,9 @@ export default function Services() {
                with you about how I can help take your website to the next level. How about we grab
                a coffee and discuss your web development needs?"
             />
+            <ServicesCard image={webImg} heading="Project" description="" />
+            <ServicesCard image={webImg} heading="freelancing" description="" />
+            <ServicesCard image={webImg} heading="post for social media" description="" />
          </div>
       </section>
    );
