@@ -1,4 +1,5 @@
 import React from "react";
+import { webImg } from "../assets/images";
 
 export default function Services() {
    return (
@@ -8,7 +9,9 @@ export default function Services() {
          </div>
          <div className="w-full p-4">
             <section className="bg-gray-700 p-4 rounded-lg flex justify-center items-center flex-col w-1/4">
-               <div className="w-[300px] h-[150px] bg-black"></div>
+               <div className="w-[250px]">
+                  <img src={webImg} className="w-full" />
+               </div>
                <div className="py-4">
                   <h3 className="text-white font-semibold text-xl text-center pt-2">
                      Web Development
