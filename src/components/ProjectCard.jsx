@@ -1,5 +1,5 @@
 import React from "react";
-import SmallBtn from "./SmallBtn";
+import ExtraSmallBtn from "./ExtraSmallBtn";
 
 export default function ProjectCard() {
    return (
@@ -21,8 +21,8 @@ export default function ProjectCard() {
          </div>
          <div className="w-full h-[2px] bg-blue-700 my-2 shadow-md shadow-blue-200"></div>
          <div className="w-full flex justify-between items-center my-2">
-            <SmallBtn value="Code" />
-            <SmallBtn value="Live" />
+            <ExtraSmallBtn value="Code" />
+            <ExtraSmallBtn value="Live" />
          </div>
       </section>
    );
