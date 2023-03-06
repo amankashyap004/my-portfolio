@@ -1,4 +1,5 @@
 import React from "react";
+import SmallBtn from "./SmallBtn";
 
 export default function ProjectCard() {
    return (
@@ -17,6 +18,11 @@ export default function ProjectCard() {
                off as completed. Task Hive is built using the latest web technologies like Tailwind
                CSS, React JS, and Firebase, ensuring a fast and responsive experience.
             </p>
+         </div>
+         <div className="w-full h-[2px] bg-blue-700 my-2 shadow-md shadow-blue-200"></div>
+         <div className="w-full flex justify-between items-center my-2">
+            <SmallBtn value="Code" />
+            <SmallBtn value="Live" />
          </div>
       </section>
    );
