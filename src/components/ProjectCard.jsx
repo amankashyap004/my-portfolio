@@ -14,7 +14,7 @@ export default function ProjectCard({ image, heading, description }) {
             <div className="w-full h-[2px] bg-blue-700 my-2 shadow-md shadow-blue-200"></div>
             <p className="text-gray-400 text-justify">{description}</p>
          </div>
-         <div className="w-full flex justify-between items-center my-2">
+         <div className="w-full flex justify-between items-center mt-2">
             <ExtraSmallBtn value="Code" />
             <ExtraSmallBtn value="Live" />
          </div>
