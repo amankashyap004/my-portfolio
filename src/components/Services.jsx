@@ -17,9 +17,31 @@ export default function Services() {
                with you about how I can help take your website to the next level. How about we grab
                a coffee and discuss your web development needs?"
             />
-            <ServicesCard image={webImg} heading="Project" description="" />
-            <ServicesCard image={webImg} heading="freelancing" description="" />
-            <ServicesCard image={webImg} heading="post for social media" description="" />
+            <ServicesCard
+               image={webImg}
+               heading="Project"
+               description="I offer a wide range of solutions designed to meet the unique needs and requirements 
+               of each client. Whether you are a college student looking for guidance and support in completing 
+               your academic projects or a company in need of specialized project management or consulting services,
+               I have skills, expertise and experience to help you achieve your goals."
+            />
+            <ServicesCard
+               image={webImg}
+               heading="freelancing"
+               description="As a freelancer in the field of web development, I provide high-quality services 
+               that are fully responsive and customized to meet the specific needs of my clients. I pride myself 
+               on delivering authentic, creative solutions at a fair and reasonable price. I am dedicated to delivering exceptional results 
+               that help businesses grow and thrive in the digital age."
+            />
+            <ServicesCard
+               image={webImg}
+               heading="Custom Content Creation"
+               description="As a social media post creator, I offer a range of services that help businesses 
+               and influencer create engaging content for their social media platforms. Whether you need 
+               attention-grabbing Instagram posts, eye-catching YouTube thumbnails, 
+               or community posts that drive engagement and interaction, I have the skills and expertise to 
+               create content that resonates with your audience."
+            />
          </div>
       </section>
    );
