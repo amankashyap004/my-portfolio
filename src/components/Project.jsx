@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { webImg } from "../assets/images";
+import { taskHiveImg } from "../assets/images";
 
 export default function Project() {
    return (
@@ -10,7 +10,7 @@ export default function Project() {
          </div>
          <div className="w-full flex justify-center items-center">
             <ProjectCard
-               image={webImg}
+               image={taskHiveImg}
                heading="Task Hive"
                description="Task Hive is a powerful task management tool that helps you stay on top of your to-do
             list. With its user-friendly interface, you can easily create and organize your
@@ -20,7 +20,7 @@ export default function Project() {
             CSS, React JS, and Firebase, ensuring a fast and responsive experience."
             />
             <ProjectCard
-               image={webImg}
+               image={taskHiveImg}
                heading="Task Hive"
                description="Task Hive is a powerful task management tool that helps you stay on top of your to-do
             list. With its user-friendly interface, you can easily create and organize your
@@ -30,7 +30,7 @@ export default function Project() {
             CSS, React JS, and Firebase, ensuring a fast and responsive experience."
             />
             <ProjectCard
-               image={webImg}
+               image={taskHiveImg}
                heading="Task Hive"
                description="Task Hive is a powerful task management tool that helps you stay on top of your to-do
             list. With its user-friendly interface, you can easily create and organize your
