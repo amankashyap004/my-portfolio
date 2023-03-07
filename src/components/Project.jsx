@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { taskHiveImg, postGeneratorImg } from "../assets/images";
+import { taskHiveImg, reactYoutubeCloneImg, postGeneratorImg } from "../assets/images";
 
 export default function Project() {
    return (
@@ -20,6 +20,16 @@ export default function Project() {
             CSS, React JS, and Firebase, ensuring a fast and responsive experience."
                codeLink="https://github.com/amankashyap004/task-hive"
                liveLink="https://amankashyap004.github.io/task-hive"
+            />
+            <ProjectCard
+               image={reactYoutubeCloneImg}
+               heading="React Youtube Clone"
+               description="By building a YouTube clone with React and YouTube API, you can gain valuable 
+               experience in web development and API integration. With React, you can design a responsive user 
+               interface that interacts with the YouTube API, allowing you to display and play videos, perform 
+               searches, and more. Through this project, you'll leverage the power of APIs to build a dynamic 
+               and functional web application, while also improving your skills in React and API integration."
+               codeLink="https://github.com/amankashyap004/react-youtube-clone"
             />
             <ProjectCard
                image={postGeneratorImg}
