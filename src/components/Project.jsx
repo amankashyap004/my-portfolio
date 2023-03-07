@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { taskHiveImg } from "../assets/images";
+import { taskHiveImg, postGeneratorImg } from "../assets/images";
 
 export default function Project() {
    return (
@@ -8,7 +8,7 @@ export default function Project() {
          <div className="mt-7 sm:mt-4">
             <h2 className="text-white font-bold text-2xl uppercase sm:text-xl">My Works</h2>
          </div>
-         <div className="w-full flex justify-center items-center">
+         <div className="w-full flex justify-center items-start">
             <ProjectCard
                image={taskHiveImg}
                heading="Task Hive"
@@ -20,6 +20,16 @@ export default function Project() {
             CSS, React JS, and Firebase, ensuring a fast and responsive experience."
                codeLink="https://github.com/amankashyap004/task-hive"
                liveLink="https://amankashyap004.github.io/task-hive"
+            />
+            <ProjectCard
+               image={postGeneratorImg}
+               heading="Post Generator"
+               description="It sounds like you have created a website that allows users to generate social 
+               media posts and memes using a drag and drop interface. That's really impressive!
+               A drag and drop interface can make the process of creating social media content much easier and 
+               more intuitive for users. It allows them to easily add images, text, and other elements to their 
+               posts and memes without having to worry about coding or design skills."
+               codeLink="https://github.com/amankashyap004/post-generator"
             />
          </div>
       </section>
