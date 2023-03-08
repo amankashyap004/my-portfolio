@@ -5,6 +5,7 @@ import postGeneratorImg from "./post-generator.png";
 import reactYoutubeCloneImg from "./react-youtube-clone.png";
 import demoImg from "./demo-image.jpg";
 import snakeGunWaterImg from "./snake-gun-water-game.png";
+import guessesTheNumberImg from "./guesses-the-number.png";
 
 export {
    profileImage,
@@ -14,4 +15,5 @@ export {
    reactYoutubeCloneImg,
    demoImg,
    snakeGunWaterImg,
+   guessesTheNumberImg,
 };
