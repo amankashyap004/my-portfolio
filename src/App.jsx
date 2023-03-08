@@ -7,6 +7,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectPage from "./pages/ProjectPage";
+import GamePage from "./pages/GamePage";
 
 export default function App() {
    return (
@@ -18,6 +19,7 @@ export default function App() {
             <Route path={`/contact`} element={<ContactPage />} />
             <Route path={`/services`} element={<ServicesPage />} />
             <Route path={`/project`} element={<ProjectPage />} />
+            <Route path={`/game`} element={<GamePage />} />
          </Routes>
       </BrowserRouter>
    );
