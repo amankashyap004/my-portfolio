@@ -7,7 +7,10 @@ export default function Game() {
          <div className="mt-7">
             <h2 className="text-white font-bold text-2xl uppercase">Game</h2>
          </div>
-         <div className="w-full flex justify-start items-start flex-wrap">
+         <div className="w-full flex justify-center items-start flex-wrap mt-4">
+            <GameCard />
+            <GameCard />
+            <GameCard />
             <GameCard />
          </div>
       </section>
