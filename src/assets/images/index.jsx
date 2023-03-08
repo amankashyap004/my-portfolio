@@ -4,5 +4,14 @@ import taskHiveImg from "./task-hive.png";
 import postGeneratorImg from "./post-generator.png";
 import reactYoutubeCloneImg from "./react-youtube-clone.png";
 import demoImg from "./demo-image.jpg";
+import snakeGunWaterImg from "./snake-gun-water-game.png";
 
-export { profileImage, webImg, taskHiveImg, postGeneratorImg, reactYoutubeCloneImg, demoImg };
+export {
+   profileImage,
+   webImg,
+   taskHiveImg,
+   postGeneratorImg,
+   reactYoutubeCloneImg,
+   demoImg,
+   snakeGunWaterImg,
+};

@@ -1,6 +1,6 @@
 import React from "react";
 import GameCard from "./GameCard";
-import { demoImg } from "../assets/images";
+import { demoImg, snakeGunWaterImg } from "../assets/images";
 
 export default function Game() {
    return (
@@ -10,9 +10,9 @@ export default function Game() {
          </div>
          <div className="w-full flex justify-center items-start mt-4">
             <GameCard
-               bgImg={demoImg}
-               heading="Game Title"
-               description="A game is an activity or sport usually involving skill, knowledge, or chance"
+               bgImg={snakeGunWaterImg}
+               heading="Snake Gun Water"
+               description="Snake Gun Water Game is one of the famous two-player game played by many people."
             />
             <GameCard
                bgImg={demoImg}
