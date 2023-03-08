@@ -7,6 +7,7 @@ import demoImg from "./demo-image.jpg";
 import snakeGunWaterImg from "./snake-gun-water-game.png";
 import guessesTheNumberImg from "./guesses-the-number.png";
 import footballScoreboardImg from "./football-scoreboard.png";
+import randomMotivationalQuotesImg from "./random-motivational-quotes.png";
 
 export {
    profileImage,
@@ -18,4 +19,5 @@ export {
    snakeGunWaterImg,
    guessesTheNumberImg,
    footballScoreboardImg,
+   randomMotivationalQuotesImg,
 };

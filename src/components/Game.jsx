@@ -1,10 +1,10 @@
 import React from "react";
 import GameCard from "./GameCard";
 import {
-   demoImg,
    snakeGunWaterImg,
    guessesTheNumberImg,
    footballScoreboardImg,
+   randomMotivationalQuotesImg,
 } from "../assets/images";
 
 export default function Game() {
@@ -30,9 +30,9 @@ export default function Game() {
                description="It is a simple Football Scoreboard website"
             />
             <GameCard
-               bgImg={demoImg}
-               heading="Game Title"
-               description="A game is an activity or sport usually involving skill, knowledge, or chance"
+               bgImg={randomMotivationalQuotesImg}
+               heading="Random Motivational Quotes"
+               description="Random Motivational Quotes website is awesome random quotes generator"
             />
          </div>
       </section>
