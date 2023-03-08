@@ -1,6 +1,11 @@
 import React from "react";
 import GameCard from "./GameCard";
-import { demoImg, snakeGunWaterImg, guessesTheNumberImg } from "../assets/images";
+import {
+   demoImg,
+   snakeGunWaterImg,
+   guessesTheNumberImg,
+   footballScoreboardImg,
+} from "../assets/images";
 
 export default function Game() {
    return (
@@ -20,9 +25,9 @@ export default function Game() {
                description="Guess The Number is a fun game that challenges to guess a number."
             />
             <GameCard
-               bgImg={demoImg}
-               heading="Game Title"
-               description="A game is an activity or sport usually involving skill, knowledge, or chance"
+               bgImg={footballScoreboardImg}
+               heading="Football Scoreboard"
+               description="It is a simple Football Scoreboard website"
             />
             <GameCard
                bgImg={demoImg}

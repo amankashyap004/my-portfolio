@@ -6,6 +6,7 @@ import reactYoutubeCloneImg from "./react-youtube-clone.png";
 import demoImg from "./demo-image.jpg";
 import snakeGunWaterImg from "./snake-gun-water-game.png";
 import guessesTheNumberImg from "./guesses-the-number.png";
+import footballScoreboardImg from "./football-scoreboard.png";
 
 export {
    profileImage,
@@ -16,4 +17,5 @@ export {
    demoImg,
    snakeGunWaterImg,
    guessesTheNumberImg,
+   footballScoreboardImg,
 };
