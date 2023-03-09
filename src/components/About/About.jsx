@@ -1,6 +1,7 @@
 import React from "react";
 import Introduction from "./Introduction";
 import Profile from "./Profile";
+import Heading from "./Heading";
 
 export default function About() {
    return (
@@ -10,8 +11,9 @@ export default function About() {
                <Profile />
             </div>
          </aside>
-         <section className="w-[82%] absolute left-[18%]">
-            <div className="flex justify-between items-center flex-col">
+         <section className="w-[82%] absolute left-[18%] p-4">
+            <div className="flex justify-start items-start flex-col">
+               <Heading heading="About me" />
                <Introduction />
             </div>
             {/* personal information */}
