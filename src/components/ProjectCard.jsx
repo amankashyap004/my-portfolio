@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ProjectCard({ image, heading, description, codeLink, liveLink }) {
    return (
-      <section className="bg-gray-800 hover:bg-gray-700 ease-in-out delay-150 rounded-lg flex justify-center items-center flex-col w-1/3 m-4 cursor-pointer">
+      <section className="bg-gray-800 hover:bg-gray-700 ease-in-out delay-150 rounded-lg flex justify-center items-center flex-col w-1/3 m-4 cursor-pointer md:w-[350px] md:mx-2 sm:mx-0 sm:w-full">
          <div className="w-full rounded-t-lg">
             <img src={image} className="w-full rounded-t-lg" />
          </div>

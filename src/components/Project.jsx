@@ -8,7 +8,7 @@ export default function Project() {
          <div className="mt-7 sm:mt-4">
             <h2 className="text-white font-bold text-2xl uppercase sm:text-xl">My Works</h2>
          </div>
-         <div className="w-full flex justify-center items-start">
+         <div className="w-full flex justify-center items-start md:flex-wrap md:p-2 sm:px-0">
             <ProjectCard
                image={taskHiveImg}
                heading="Task Hive"
