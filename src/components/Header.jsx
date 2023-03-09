@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderNav from "./HeaderNav";
 import { Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 
 export default function Header() {
+   const [isToggleSideBar, setIsToggleSideBar] = useState(true);
+   const handelClick = () => {
+      setIsToggleSideBar(!isToggleSideBar);
+   };
+
    return (
       <header className="bg-slate-700 px-6 py-2 text-white flex justify-between items-center md:px-4">
          <Link to="/">
@@ -25,9 +30,8 @@ export default function Header() {
             <HeaderNav />
          </div>
          <div className="hidden sm:block">
-            <div className="text-2xl">
-               <BiMenu />
-               <MdClose />
+            <div className="text-2xl" onClick={handelClick}>
+               {isToggleSideBar ? <BiMenu /> : <MdClose />}
             </div>
          </div>
       </header>
