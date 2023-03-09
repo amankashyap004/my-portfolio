@@ -5,9 +5,11 @@ import { BiMenu } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 
 export default function Header() {
+   const [isSideBar, setIsSideBar] = useState(false);
    const [isToggleSideBar, setIsToggleSideBar] = useState(true);
    const handelClick = () => {
       setIsToggleSideBar(!isToggleSideBar);
+      setIsSideBar(!isSideBar);
    };
 
    return (
@@ -30,9 +32,16 @@ export default function Header() {
             <HeaderNav />
          </div>
          <div className="hidden sm:block">
-            <div className="text-2xl" onClick={handelClick}>
+            <div className="text-2xl flex justify-end items-center" onClick={handelClick}>
                {isToggleSideBar ? <BiMenu /> : <MdClose />}
             </div>
+            {isSideBar ? (
+               <div className="fixed top-16 right-0 w-28 h-full p-2 bg-slate-800">
+                  <HeaderNav />
+               </div>
+            ) : (
+               ""
+            )}
          </div>
       </header>
    );
