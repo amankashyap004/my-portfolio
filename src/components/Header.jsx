@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderNav from "./HeaderNav";
 import { Link } from "react-router-dom";
+import { BiMenu } from "react-icons/bi";
 
 export default function Header() {
    return (
@@ -19,8 +20,11 @@ export default function Header() {
                </h4>
             </div>
          </Link>
-         <div>
+         <div className="sm:hidden">
             <HeaderNav />
+         </div>
+         <div className="hidden sm:block">
+            <BiMenu className="text-2xl" />
          </div>
       </header>
    );
