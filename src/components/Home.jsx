@@ -32,7 +32,9 @@ export default function Home() {
                contact me. Take a look around and let me know if you have any questions or would
                like to work together!{" "}
                <Link to="/about">
-                  <span className="text-blue-500 underline font-semibold">more</span>
+                  <span className="text-blue-500 hover:text-blue-400 hover:underline font-semibold transition-all duration-500 ease-in-out">
+                     more
+                  </span>
                </Link>
             </p>
             <div className="flex justify-start items-start mt-2">

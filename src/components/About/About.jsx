@@ -17,7 +17,7 @@ export default function About() {
                <Heading heading="About me" />
                <Introduction />
             </div>
-            <div className="flex justify-start items-start flex-col">
+            <div className="flex justify-start items-start flex-col mt-4">
                <Heading heading="Personal Information" />
                <PersonalInfo />
             </div>
