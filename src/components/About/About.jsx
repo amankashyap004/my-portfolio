@@ -2,6 +2,7 @@ import React from "react";
 import Introduction from "./Introduction";
 import Profile from "./Profile";
 import Heading from "./Heading";
+import PersonalInfo from "./PersonalInfo";
 
 export default function About() {
    return (
@@ -18,6 +19,7 @@ export default function About() {
             </div>
             <div className="flex justify-start items-start flex-col">
                <Heading heading="Personal Information" />
+               <PersonalInfo />
             </div>
             <div className="flex justify-start items-start flex-col">
                <Heading heading="Education" />
