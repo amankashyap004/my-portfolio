@@ -4,7 +4,7 @@ import SocialMediaContainer from "./SocialMediaContainer";
 
 export default function SocialMedia() {
    return (
-      <section className="flex justify-center items-center m-4">
+      <section className="flex justify-center items-center m-4 sm:m-2">
          <SocialMediaContainer icon={<FaGithub />} link="https://github.com/amankashyap004" />
          <SocialMediaContainer
             icon={<FaLinkedinIn />}
