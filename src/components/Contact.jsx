@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import SmallBtn from "./SmallBtn";
 
 export default function Contact() {
+   const [formData, setFormData] = useState({
+      fullName: "",
+      email: "",
+      message: "",
+   });
+
+   function handleChange(event) {
+      const { name, value } = event.target;
+      setFormData((prevFormData) => ({
+         ...prevFormData,
+         [name]: value,
+      }));
+   }
+
    const handleSubmit = (e) => {
       e.preventDefault();
+      console.log(formData);
    };
+
    return (
       <section className="flex justify-center items-start m-4">
          <div className="px-4 py-8 flex justify-center items-center flex-col">
@@ -18,14 +34,17 @@ export default function Contact() {
             <section className="flex justify-center items-center flex-col my-2 w-full">
                <form className="w-full" onSubmit={handleSubmit}>
                   <div className="flex justify-start items-start flex-col w-full my-2">
-                     <label htmlFor="name" className="text-gray-300 font-semibold text-lg pb-1">
+                     <label htmlFor="fullName" className="text-gray-300 font-semibold text-lg pb-1">
                         Name
                      </label>
                      <input
                         className="w-full px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
-                        id="name"
+                        id="fullName"
                         type="text"
                         placeholder="Enter Your Name"
+                        name="fullName"
+                        onChange={handleChange}
+                        value={formData.fullName}
                      />
                   </div>
                   <div className="flex justify-start items-start flex-col w-full my-2">
@@ -37,6 +56,9 @@ export default function Contact() {
                         id="email"
                         type="email"
                         placeholder="Enter Your Email"
+                        name="email"
+                        onChange={handleChange}
+                        value={formData.email}
                      />
                   </div>
                   <div className="flex justify-start items-start flex-col w-full my-2">
@@ -47,6 +69,9 @@ export default function Contact() {
                         className="w-full h-28 px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
                         id="message"
                         placeholder="Enter Your Message"
+                        name="message"
+                        onChange={handleChange}
+                        value={formData.message}
                      />
                   </div>
                   <div className="mt-4">
