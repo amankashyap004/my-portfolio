@@ -4,7 +4,7 @@ import { TbBrandJavascript, TbBrandTailwind } from "react-icons/tb";
 
 export default function Skills() {
    return (
-      <section className="w-1/2 p-4">
+      <section className="w-1/2 p-4 md:w-full sm:p-2">
          <ProgressBar title="HTML" icon={<FaHtml5 />} percentage="85%" />
          <ProgressBar title="CSS" icon={<FaCss3Alt />} percentage="70%" />
          <ProgressBar title="JAVASCRIPT" icon={<TbBrandJavascript />} percentage="65%" />

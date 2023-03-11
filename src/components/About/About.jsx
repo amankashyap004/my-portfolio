@@ -14,19 +14,19 @@ export default function About() {
             </div>
          </aside>
          <section className="w-[82%] absolute left-[18%] p-4 md:w-[75%] md:left-[25%] sm:static sm:w-full">
-            <div className="flex justify-start items-start flex-col">
+            <div className="flex justify-start items-start flex-col sm:justify-center sm:items-center">
                <Heading heading="About me" />
                <Introduction />
             </div>
-            <div className="flex justify-start items-start flex-col mt-4">
+            <div className="flex justify-start items-start flex-col mt-4 sm:justify-center sm:items-center">
                <Heading heading="Skills" />
                <Skills />
             </div>
-            <div className="flex justify-start items-start flex-col mt-4">
+            <div className="flex justify-start items-start flex-col mt-4 sm:justify-center sm:items-center">
                <Heading heading="Personal Information" />
                <PersonalInfo />
             </div>
-            <div className="flex justify-start items-start flex-col">
+            <div className="flex justify-start items-start flex-col sm:justify-center sm:items-center">
                <Heading heading="Education" />
             </div>
          </section>
