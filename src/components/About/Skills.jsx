@@ -1,7 +1,9 @@
+import ProgressBar from "./ProgressBar";
+
 export default function Skills() {
    return (
-      <section>
-         <h2>Skill</h2>
+      <section className="w-1/2 p-4">
+         <ProgressBar />
       </section>
    );
 }
