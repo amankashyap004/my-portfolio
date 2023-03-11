@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SmallBtn from "./SmallBtn";
+import InputField from "./InputField";
 
 export default function Contact() {
    const [formData, setFormData] = useState({
@@ -33,34 +34,25 @@ export default function Contact() {
             </section>
             <section className="flex justify-center items-center flex-col my-2 w-full">
                <form className="w-full" onSubmit={handleSubmit}>
-                  <div className="flex justify-start items-start flex-col w-full my-2">
-                     <label htmlFor="fullName" className="text-gray-300 font-semibold text-lg pb-1">
-                        Name
-                     </label>
-                     <input
-                        className="w-full px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
-                        id="fullName"
-                        type="text"
-                        placeholder="Enter Your Name"
-                        name="fullName"
-                        onChange={handleChange}
-                        value={formData.fullName}
-                     />
-                  </div>
-                  <div className="flex justify-start items-start flex-col w-full my-2">
-                     <label htmlFor="email" className="text-gray-300 font-semibold text-lg pb-1">
-                        Email
-                     </label>
-                     <input
-                        className="w-full px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
-                        id="email"
-                        type="email"
-                        placeholder="Enter Your Email"
-                        name="email"
-                        onChange={handleChange}
-                        value={formData.email}
-                     />
-                  </div>
+                  <InputField
+                     title="Name"
+                     id="fullName"
+                     type="text"
+                     placeholder="Enter Your Name"
+                     name="fullName"
+                     onChange={handleChange}
+                     value={formData.fullName}
+                  />
+                  <InputField
+                     title="Email"
+                     id="email"
+                     type="email"
+                     placeholder="Enter Your Email"
+                     name="email"
+                     onChange={handleChange}
+                     value={formData.email}
+                  />
+
                   <div className="flex justify-start items-start flex-col w-full my-2">
                      <label htmlFor="message" className="text-gray-300 font-semibold text-lg pb-1">
                         Message
