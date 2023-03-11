@@ -1,8 +1,11 @@
-export default function ProgressBar({ title, percentage }) {
+export default function ProgressBar({ title, percentage, icon }) {
    return (
       <div className="w-full py-2">
          <div className="flex justify-between mb-1">
-            <span className="text-base font-medium text-white">{title}</span>
+            <div className="flex justify-center items-center">
+               <span className="text-base font-medium text-white">{title}</span>
+               <div className="text-gray-500 ml-2">{icon}</div>
+            </div>
             <span className="text-sm font-medium text-white">{percentage}</span>
          </div>
          <div className="w-full bg-gray-200 rounded-full h-2.5">
