@@ -3,6 +3,7 @@ import Introduction from "./Introduction";
 import Profile from "./Profile";
 import Heading from "./Heading";
 import PersonalInfo from "./PersonalInfo";
+import Skills from "./Skills";
 
 export default function About() {
    return (
@@ -24,8 +25,9 @@ export default function About() {
             <div className="flex justify-start items-start flex-col">
                <Heading heading="Education" />
             </div>
-            <div className="flex justify-start items-start flex-col">
+            <div className="flex justify-start items-start flex-col mt-4">
                <Heading heading="Skills" />
+               <Skills />
             </div>
          </section>
       </section>
