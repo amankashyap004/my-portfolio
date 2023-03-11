@@ -19,15 +19,15 @@ export default function About() {
                <Introduction />
             </div>
             <div className="flex justify-start items-start flex-col mt-4">
+               <Heading heading="Skills" />
+               <Skills />
+            </div>
+            <div className="flex justify-start items-start flex-col mt-4">
                <Heading heading="Personal Information" />
                <PersonalInfo />
             </div>
             <div className="flex justify-start items-start flex-col">
                <Heading heading="Education" />
-            </div>
-            <div className="flex justify-start items-start flex-col mt-4">
-               <Heading heading="Skills" />
-               <Skills />
             </div>
          </section>
       </section>
