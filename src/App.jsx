@@ -8,13 +8,13 @@ import ContactPage from "./pages/ContactPage";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectPage from "./pages/ProjectPage";
 import GamePage from "./pages/GamePage";
-import ColorPanelPage from "./pages/ColorPanelsPage";
+import ColorsPanelPage from "./pages/ColorsPanelPage";
 
 export default function App() {
    return (
       <BrowserRouter>
          <HeaderPage />
-         <ColorPanelPage />
+         <ColorsPanelPage />
          <Routes>
             <Route path={`/`} element={<HomePage />} />
             <Route path={`/about`} element={<AboutPage />} />
