@@ -36,10 +36,7 @@ export default function ColorsPanel() {
                   {isDarkMode ? <BsFillSunFill className="text-white" /> : <BsMoonStarsFill />}
                </div>
             </div>
-            <ColorContainer bgColor="blue" />
-            <ColorContainer bgColor="red" />
-            <ColorContainer bgColor="green" />
-            <ColorContainer bgColor="orange" />
+            <ColorContainer />
          </div>
       </section>
    );
