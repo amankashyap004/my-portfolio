@@ -2,5 +2,16 @@
 
 body {
    font-family: "Open Sans", sans-serif;
+}
+
+/* Dark mode styles */
+body.dark {
    background-color: rgb(15 23 42);
+   color: white;
+}
+
+/* Light mode styles */
+body:not(.dark) {
+   background-color: rgb(226 232 240);
+   color: rgb(15 23 42);
 }

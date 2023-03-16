@@ -15,6 +15,11 @@ export default function App() {
    const [isDarkMode, setIsDarkMode] = React.useState(false);
    const handelDarkMode = () => {
       setIsDarkMode(!isDarkMode);
+      if (isDarkMode) {
+         document.body.classList.remove("dark");
+      } else {
+         document.body.classList.add("dark");
+      }
    };
 
    return (
