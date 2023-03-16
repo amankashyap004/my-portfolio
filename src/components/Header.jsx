@@ -13,7 +13,7 @@ export default function Header() {
    };
 
    return (
-      <header className="bg-slate-700 px-6 py-2 text-white flex justify-between items-center md:px-4">
+      <header className="bg-slate-900 dark:bg-slate-700 px-6 py-2 text-white flex justify-between items-center md:px-4">
          <Link to="/">
             <div className="cursor-pointer">
                <h2 className="font-bold text-2xl md:text-xl ">
