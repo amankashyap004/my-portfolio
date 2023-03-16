@@ -8,5 +8,6 @@ module.exports = {
          sm: { max: "639px" },
       },
    },
+   darkMode: "class",
    plugins: [],
 };
