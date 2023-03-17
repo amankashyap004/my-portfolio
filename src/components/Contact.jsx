@@ -26,8 +26,8 @@ export default function Contact() {
       <section className="flex justify-center items-start m-4">
          <div className="px-4 py-8 flex justify-center items-center flex-col">
             <section className="flex justify-center items-center flex-col my-2">
-               <h2 className="text-white font-bold text-3xl mb-2">Contact</h2>
-               <p className="text-gray-500 text-sm">
+               <h2 className="text-gray-900 dark:text-gray-100 font-bold text-3xl mb-2">Contact</h2>
+               <p className="text-gray-400 dark:text-gray-500 text-sm">
                   We'd love to hear from you! Send us a message and let's make something amazing
                   together.
                </p>
@@ -54,11 +54,14 @@ export default function Contact() {
                   />
 
                   <div className="flex justify-start items-start flex-col w-full my-2">
-                     <label htmlFor="message" className="text-gray-300 font-semibold text-lg pb-1">
+                     <label
+                        htmlFor="message"
+                        className="text-gray-700 dark:text-gray-300 font-semibold text-lg pb-1"
+                     >
                         Message
                      </label>
                      <textarea
-                        className="w-full h-28 px-3 py-2 rounded-md border-2 border-gray-500 focus:border-2 focus:border-blue-500 outline-none bg-gray-500"
+                        className="w-full h-28 px-3 py-2 rounded-md border-2 bg-gray-300 dark:bg-gray-600 border-gray-700 dark:border-gray-500 focus:border-2 focus:border-blue-500 dark:focus:border-blue-500 outline-none"
                         id="message"
                         placeholder="Enter Your Message"
                         name="message"
