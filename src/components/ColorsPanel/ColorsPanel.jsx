@@ -19,7 +19,7 @@ export default function ColorsPanel() {
             <AiFillSetting className="text-blue-500 hover:text-blue-400 active:text-blue-600 text-3xl z-10 text-center transition-all duration-500 ease-in-out" />
          </div>
          <div
-            className={`bg-gray-600 p-4 flex justify-center items-center rounded-bl-md transition-all dark:bg-gray-300
+            className={`bg-gray-400 dark:bg-gray-600 p-4 flex justify-center items-center rounded-bl-md transition-all
             ${isColorsPanel ? "translate-x-0" : "translate-x-full"}`}
          >
             <ColorContainer />
