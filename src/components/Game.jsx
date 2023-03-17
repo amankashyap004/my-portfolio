@@ -11,7 +11,9 @@ export default function Game() {
    return (
       <section className="flex justify-center items-center flex-col m-4 md:mx-2 sm:mx-0">
          <div className="mt-7">
-            <h2 className="text-white font-bold text-2xl uppercase sm:text-xl">Game</h2>
+            <h2 className="text-gray-900 dark:text-gray-100 font-bold text-2xl uppercase sm:text-xl">
+               Game
+            </h2>
          </div>
          <div className="w-full flex justify-center items-start mt-4 md:flex-wrap md:mt-2 sm:mt-0">
             <GameCard
