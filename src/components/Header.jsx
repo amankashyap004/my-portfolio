@@ -36,11 +36,13 @@ export default function Header() {
                {isToggleSideBar ? <BiMenu /> : <MdClose />}
             </div>
             {isSideBar ? (
-               <div className="fixed top-16 right-0 w-28 h-full p-2 bg-slate-800">
+               <div className="fixed top-16 right-0 w-28 h-full p-2 bg-slate-800 transition-all translate-x-0">
                   <HeaderNav />
                </div>
             ) : (
-               ""
+               <div className="fixed top-16 right-0 w-28 h-full p-2 bg-slate-800 transition-all translate-x-full">
+                  <HeaderNav />
+               </div>
             )}
          </div>
       </header>
