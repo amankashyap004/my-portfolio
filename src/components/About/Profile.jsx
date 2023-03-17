@@ -9,8 +9,12 @@ export default function Profile() {
             <img src={profileImage} className="w-full rounded" />
          </div>
          <div className="mt-4 flex justify-center items-center flex-col sm:mt-2">
-            <h2 className="text-white text-2xl font-bold md:text-xl">AMAN KASHYAP</h2>
-            <p className="text-gray-400 text-sm font-medium">Front-End Developer</p>
+            <h2 className="text-gray-900 dark:text-gray-100 text-2xl font-bold md:text-xl">
+               AMAN KASHYAP
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 text-sm font-medium">
+               Front-End Developer
+            </p>
          </div>
          <SocialMedia />
       </section>
