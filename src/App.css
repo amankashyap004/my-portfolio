@@ -12,6 +12,6 @@ body.dark {
 
 /* Light mode styles */
 body:not(.dark) {
-   background-color: rgb(226 232 240);
+   background-color: rgb(241 245 249);
    color: rgb(15 23 42);
 }

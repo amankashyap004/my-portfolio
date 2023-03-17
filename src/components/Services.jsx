@@ -6,7 +6,9 @@ export default function Services() {
    return (
       <section className="flex justify-center items-center flex-col m-3 md:mx-2 sm:mx-0">
          <div className="mt-7 sm:mt-4">
-            <h2 className="text-white font-bold text-2xl uppercase sm:text-xl">Our Services</h2>
+            <h2 className="text-gray-900 dark:text-gray-100 font-bold text-2xl uppercase sm:text-xl">
+               Our Services
+            </h2>
          </div>
          <div className="w-full p-4 flex justify-center items-start md:flex-wrap md:p-2 sm:px-0">
             <ServicesCard
