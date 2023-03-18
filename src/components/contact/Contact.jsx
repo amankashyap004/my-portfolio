@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SmallBtn from "./SmallBtn";
+import SmallBtn from "../SmallBtn";
 import InputField from "./InputField";
 
 export default function Contact() {

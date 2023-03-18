@@ -1,6 +1,6 @@
 import React from "react";
 import { profileImage } from "../../assets/images/index";
-import SocialMedia from "../SocialMedia";
+import SocialMedia from "../socialMedia/SocialMedia";
 
 export default function Profile() {
    return (

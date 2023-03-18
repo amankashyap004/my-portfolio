@@ -5,7 +5,7 @@ import {
    guessesTheNumberImg,
    footballScoreboardImg,
    randomMotivationalQuotesImg,
-} from "../assets/images";
+} from "../../assets/images";
 
 export default function Game() {
    return (

@@ -1,8 +1,8 @@
 import React from "react";
-import SmallBtn from "./SmallBtn";
-import { profileImage } from "../assets/images";
+import SmallBtn from "../SmallBtn";
+import { profileImage } from "../../assets/images";
 import { TypeAnimation } from "react-type-animation";
-import SocialMedia from "./SocialMedia";
+import SocialMedia from "../socialMedia/SocialMedia";
 import { Link } from "react-router-dom";
 
 export default function Home() {

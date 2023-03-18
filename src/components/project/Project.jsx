@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { taskHiveImg, reactYoutubeCloneImg, postGeneratorImg } from "../assets/images";
+import { taskHiveImg, reactYoutubeCloneImg, postGeneratorImg } from "../../assets/images";
 
 export default function Project() {
    return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Game from "../components/Game";
+import Game from "../components/game/Game";
 
 export default function GamePage() {
    return (

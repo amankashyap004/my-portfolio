@@ -1,5 +1,5 @@
 import React from "react";
-import ExtraSmallBtn from "./ExtraSmallBtn";
+import ExtraSmallBtn from "../ExtraSmallBtn";
 import { Link } from "react-router-dom";
 
 export default function ProjectCard({ image, heading, description, codeLink, liveLink }) {

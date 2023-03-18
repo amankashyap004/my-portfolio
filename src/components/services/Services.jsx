@@ -1,5 +1,5 @@
 import React from "react";
-import { webImg } from "../assets/images";
+import { webImg } from "../../assets/images";
 import ServicesCard from "./ServicesCard";
 
 export default function Services() {

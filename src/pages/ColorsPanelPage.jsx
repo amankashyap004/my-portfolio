@@ -1,5 +1,5 @@
 import React from "react";
-import ColorsPanel from "../components/ColorsPanel/ColorsPanel";
+import ColorsPanel from "../components/colorsPanel/ColorsPanel";
 
 export default function ColorsPanelPage() {
    return (
