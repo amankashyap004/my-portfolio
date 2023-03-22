@@ -5,7 +5,7 @@ import { taskHiveImg, reactYoutubeCloneImg, postGeneratorImg } from "../../asset
 export default function Projects() {
    return (
       <section className="flex justify-center items-center flex-col">
-         <div className="mt-7 sm:mt-4">
+         <div className="mt-7 border-b-2 border-blue-500 sm:mt-4">
             <h2 className="text-gray-900 dark:text-gray-100 font-bold text-2xl uppercase sm:text-xl">
                Projects
             </h2>
