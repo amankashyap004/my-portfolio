@@ -2,12 +2,12 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { taskHiveImg, reactYoutubeCloneImg, postGeneratorImg } from "../../assets/images";
 
-export default function Project() {
+export default function Projects() {
    return (
-      <section className="flex justify-center items-center flex-col m-4">
+      <section className="flex justify-center items-center flex-col">
          <div className="mt-7 sm:mt-4">
             <h2 className="text-gray-900 dark:text-gray-100 font-bold text-2xl uppercase sm:text-xl">
-               My Works
+               Projects
             </h2>
          </div>
          <div className="w-full flex justify-center items-start md:flex-wrap md:p-2 sm:px-0">

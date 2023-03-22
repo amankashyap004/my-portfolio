@@ -14,8 +14,8 @@ export default function HeaderNav() {
          <Link to="/services">
             <NavigationContent textValue="Services" />
          </Link>
-         <Link to="/project">
-            <NavigationContent textValue="Project" />
+         <Link to="/works">
+            <NavigationContent textValue="Works" />
          </Link>
          <Link to="/game">
             <NavigationContent textValue="Game" />

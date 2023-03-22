@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ServicesPage from "./pages/ServicesPage";
-import ProjectPage from "./pages/ProjectPage";
+import WorksPage from "./pages/WorksPage";
 import GamePage from "./pages/GamePage";
 import ColorsPanelPage from "./pages/ColorsPanelPage";
 
@@ -20,7 +20,7 @@ export default function App() {
             <Route path={`/about`} element={<AboutPage />} />
             <Route path={`/contact`} element={<ContactPage />} />
             <Route path={`/services`} element={<ServicesPage />} />
-            <Route path={`/project`} element={<ProjectPage />} />
+            <Route path={`/works`} element={<WorksPage />} />
             <Route path={`/game`} element={<GamePage />} />
          </Routes>
       </BrowserRouter>
