@@ -7,7 +7,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ServicesPage from "./pages/ServicesPage";
 import WorksPage from "./pages/WorksPage";
-import GamePage from "./pages/GamePage";
+import BlogPage from "./pages/BlogPage";
 import ColorsPanelPage from "./pages/ColorsPanelPage";
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
             <Route path={`/contact`} element={<ContactPage />} />
             <Route path={`/services`} element={<ServicesPage />} />
             <Route path={`/works`} element={<WorksPage />} />
-            <Route path={`/game`} element={<GamePage />} />
+            <Route path={`/blog`} element={<BlogPage />} />
          </Routes>
       </BrowserRouter>
    );
