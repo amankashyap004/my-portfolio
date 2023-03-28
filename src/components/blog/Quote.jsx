@@ -44,7 +44,7 @@ export default function Quote() {
          <div className="w-full flex justify-center items-center mt-4">
             <section className="flex justify-between items-center w-3/4 h-80 bg-slate-800 rounded py-4 px-6">
                <MdArrowBackIos
-                  className="text-3xl cursor-pointer text-blue-500"
+                  className="text-3xl cursor-pointer text-blue-500 hover:text-blue-600 active:text-blue-800 transition-all duration-500 ease-in-out"
                   onClick={handleClick}
                />
                <div className="flex justify-center items-center flex-col w-[70%] h-full relative">
@@ -59,7 +59,7 @@ export default function Quote() {
                   </h2>
                </div>
                <MdArrowForwardIos
-                  className="text-3xl cursor-pointer text-blue-500"
+                  className="text-3xl cursor-pointer text-blue-500 hover:text-blue-600 active:text-blue-800 transition-all duration-500 ease-in-out"
                   onClick={handleClick}
                />
             </section>
