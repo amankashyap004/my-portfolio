@@ -1,4 +1,4 @@
-quotes = [
+export default quotes = [
    "When we do the best we can, we never know what miracle is wrought in our life or the life of another. — Helen Keller",
 
    "Life is what happens when you're busy making other plans. — John Lennon",
