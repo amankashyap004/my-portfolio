@@ -25,19 +25,19 @@ export default function Quote() {
             </h2>
          </div>
          <div className="w-full flex justify-center items-center mt-4">
-            <section className="flex justify-between items-center w-3/4 h-80 bg-slate-800 rounded py-4 px-6">
+            <section className="flex justify-between items-center w-3/4 h-80 bg-slate-800 rounded py-4 px-6 sm:w-full sm:p-4">
                <MdArrowBackIos
                   className="text-3xl cursor-pointer text-blue-500 hover:text-blue-600 active:text-blue-800 transition-all duration-500 ease-in-out"
                   onClick={handleClick}
                />
-               <div className="flex justify-center items-center flex-col w-[70%] h-full relative">
+               <div className="flex justify-center items-center flex-col p-2 w-[70%] h-full relative sm:w-full">
                   <FaQuoteLeft className="font-extrabold text-3xl text-blue-700 top-0 absolute" />
                   <h3 className="text-center text-xl">
                      {quote.quote
                         ? quote.quote
                         : "When we do the best we can, we never know what miracle is wrought in our life or the life of another."}
                   </h3>
-                  <h2 className="font-bold text-2xl text-right w-full text-gray-300 mt-1">
+                  <h2 className="font-bold text-2xl text-right w-full text-gray-300 mt-2 sm:mt-4 sm:text-xl">
                      — {quote.author ? quote.author : "Helen Keller"}
                   </h2>
                </div>
